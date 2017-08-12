@@ -1,8 +1,5 @@
-Created: August 12th, 2017
+Repository created: August 12th, 2017
 
-This is my first project in python.
-Idea is from: https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/
-I basically combined the first and second project (Not intentionally, it just happened that way)
-
-This is my first project, so I didn't expect anything mind explosive. Just something so cover the basics and get me on 
-my way to harder projects
+This repository will contain my current and upcoming projects, I don't expect anything mind explosive. 
+Only simple python scripts due to the fact that I am a beginner. 
+Although, I'm fairly certain the scripts will be most suffisticated and overall better in the future.
