@@ -163,7 +163,7 @@ def clear_window():
 
 
 def play_game(word):
-    print("[DEBUGGING PURPOSES] Secret word = {0}".format(word))
+    # print("[DEBUGGING PURPOSES] Secret word = {0}".format(word))
     guessed_letters = ""
     tries = 6
     # Current word with guessed letters
