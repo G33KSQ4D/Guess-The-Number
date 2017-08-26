@@ -1,1 +1,11 @@
-I made this chatroom using Python libraries Sockets and Threading. The reason I first made this program was to be able to play tic tac toe over the internet with a friend but some things just happened while I was codinga and I made a chatroom instead. I plan on updating it in the future by using GUI instead of text-based communications and maybe something else, not sure yet.
+I made this chatroom using Python libraries Sockets and Threading. The reason I first made this program was to be able to play
+tic tac toe over the internet with a friend but some things just happened while I was codinga and I made a chatroom instead. 
+I plan on updating it in the future by using GUI instead of text-based communications and maybe something else, not sure yet.
+
+By the way, if in the rare case that someone downloads the scripts to test them, make sure that the server has port forwarding enabled
+on the port that the socket is listening on and also make sure python.exe or whatever interpreter you're using can bypass the firewall
+or else it won't work. Trust me, I went through hell trying to find out what my mistake was. So yeah,
+
+1. Enable port-forwarding on port (I used 8000, to enable port forwarding I went to 192.168.0.1 (my router) and just changed a few things)
+2. To allow python.exe (Interpreter to 'bypass' the firewall go to by searching 'Allow an app through the Windows Firewall' and go find 
+Python.exe and click the checkmark.
