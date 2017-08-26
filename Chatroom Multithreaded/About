@@ -1,0 +1,1 @@
+I made this chatroom using Python libraries Sockets and Threading. The reason I first made this program was to be able to play tic tac toe over the internet with a friend but some things just happened while I was codinga and I made a chatroom instead. I plan on updating it in the future by using GUI instead of text-based communications and maybe something else, not sure yet.
