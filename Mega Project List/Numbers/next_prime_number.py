@@ -25,7 +25,7 @@ for x in range(2, max_num):
     if is_prime(x):
         prime_numbers.append(x)
 
-# At this point I've got a list of 100, 000 prime numbers
+# At this point I've got a list of 10, 000 prime numbers
 
 print("Welcome to find the next prime number!\n\n")
 
