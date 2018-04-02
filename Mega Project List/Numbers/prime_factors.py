@@ -2,7 +2,6 @@
 
 # Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-
 def is_prime(n):
     """ Returns whether a number is prime or not using modulus """
 
@@ -12,7 +11,6 @@ def is_prime(n):
             return False
     # If it reaches this point it means it's a prime
     return True
-
 
 def find_prime_factors(max_num):
     """ Find all prime factors until a certain number (Exclusive) """

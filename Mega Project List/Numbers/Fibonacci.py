@@ -3,7 +3,6 @@
 # "Fibonacci Sequence - Enter a number and have the program generate
 # the Fibonacci sequence to that number or to the Nth number."
 
-
 def fib(count):
     """ Find all fibonacci numbers until a certain count """
     # Start the sequence with 1, 1 to save time
