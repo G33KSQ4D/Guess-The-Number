@@ -3,8 +3,6 @@
 # "Fibonacci Sequence - Enter a number and have the program generate
 # the Fibonacci sequence to that number or to the Nth number."
 
-FIB_COUNT = 1000
-
 
 def fib(count):
     """ Find all fibonacci numbers until a certain count """
@@ -15,4 +13,5 @@ def fib(count):
         fib_seq.append(fib_seq[-1] + fib_seq[-2])
     return fib_seq[:-1]
 
+FIB_COUNT = 1000
 print(fib(FIB_COUNT))
