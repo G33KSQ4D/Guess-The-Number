@@ -6,7 +6,6 @@
 
 import scrapy
 import random as rand # To pick a random quote from quotes list
-from bs4 import BeautifulSoup
 
 class quotes_spider(scrapy.Spider):
 	name = "quotes"
@@ -21,7 +20,7 @@ class quotes_spider(scrapy.Spider):
 		with open("quote.txt", "w") as quote_file:
 			for quote in response.xpath("//blockquote/p").extract():
 				# Basically, I don't want to deal with links as a beginner
-				# They are a pain in the behind
+				# They are a pain in the ass
 				if "<a" in quote:
 					continue
 				else: 
